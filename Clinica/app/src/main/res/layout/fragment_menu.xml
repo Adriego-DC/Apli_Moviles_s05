@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Imagen a todo el ancho -->
+        <ImageView
+            android:id="@+id/imageRobles"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/clinica_robles"
+            android:contentDescription="Logo Clínica Robles"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Texto descriptivo debajo -->
+        <TextView
+            android:id="@+id/descripcionClinica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En Clínica Robles cuidamos de ti y de los que más amas. Somos un centro médico comprometido con la excelencia, la atención humana y la salud integral. Contamos con especialistas altamente capacitados, tecnología moderna y un servicio cálido que nos distingue. Tu bienestar es nuestra prioridad."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>
