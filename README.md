@@ -1,23 +1,25 @@
-🏥 Clínica Robles - App Móvil
-Esta aplicación móvil ha sido desarrollada para la Clínica Robles, con el objetivo de brindar una plataforma accesible y eficiente para la atención médica de sus pacientes.
+🏥 Clínica Robles - Aplicación Móvil
+Esta es una aplicación móvil desarrollada para la Clínica Robles, orientada a facilitar el acceso a información sobre los servicios de salud ofrecidos por la institución. La app busca mejorar la experiencia del paciente a través de una interfaz intuitiva y moderna, que le permite conocer las distintas especialidades médicas y los detalles de atención de cada una.
 
-📌 Temática
-La app se enfoca en la gestión de servicios de salud, permitiendo a los usuarios:
+🎯 Temática del Proyecto
+El proyecto se centra en el ámbito sanitario y de atención médica, permitiendo que los usuarios puedan:
 
-Iniciar sesión o registrarse.
+Iniciar sesión y registrarse en la aplicación.
 
-Visualizar las especialidades médicas disponibles.
+Visualizar un listado de especialidades médicas.
 
-Acceder a información detallada sobre cada servicio.
+Obtener información detallada de cada especialidad mediante ventanas emergentes con imágenes e información clara.
 
-Mejorar la interacción entre el paciente y la clínica.
+Navegar por una interfaz limpia y adaptada a dispositivos móviles.
 
-💻 Tecnología empleada
+🛠️ Tecnologías Utilizadas
 Lenguaje principal: Java
+
+Interfaz de usuario: XML con componentes de Material Design
 
 Entorno de desarrollo: Android Studio
 
-Diseño de interfaz: XML
+Recursos gráficos: Imágenes en formato PNG/JPG organizadas en el directorio drawable
 
-Frameworks y librerías: Material Design Components para mejorar la experiencia de usuario.
+Gestión de interfaz: Uso de RecyclerView, AlertDialog y componentes modernos para una experiencia fluida.
 
